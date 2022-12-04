@@ -7,10 +7,18 @@ public class Apple {
     public Apple() {
         // each time u create a new object this block will be executed
 
-        System.out.println("This is the default constructor");
-
     }
-        // instance variables - fields- states- attributes
+
+    // Overloading constructor with 3 arguments
+
+    public Apple(String color, double price, String taste) {
+        this.color = color;
+        this.price = price;
+        this.taste = taste;
+    }
+
+
+    // instance variables - fields- states- attributes
 
         public String color; // null
         public double price; // 0.0
